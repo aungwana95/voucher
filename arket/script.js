@@ -18,18 +18,18 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '20px Gadugi'
+	ctx.font = '20px Gadugi bold'
 	ctx.fillStyle = '#000000'
 
 //---NAME---//
-	ctx.fillText(nameInput.value, 290, 179)
+	ctx.fillText(nameInput.value, 280, 182)
 //---NAME---//
 	ctx.fillText(nrcInput.value, 60, 300)
 //---CLASS---//
         ctx.fillText(classInput.value, 320, 300)
         ctx.fillText(classInput.value, 320, 475)
 //---DATE---//
-        ctx.fillText(dateInput.value, 85, 179)
+        ctx.fillText(dateInput.value, 89, 182)
 //---CID---//
         ctx.fillText(cidInput.value, 500, 660)
 }
