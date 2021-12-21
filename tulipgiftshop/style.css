@@ -1,0 +1,46 @@
+body{
+        background: #253660;}
+	font-size: 400;
+	font-family: 'Roboto', sans-serif;
+}
+.wpk-iframe-generator{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wpk-iframe-generator .wpk-option{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wpk-iframe-generator .wpk-option > .wpk-field{
+color: #ffffff;
+	width: 33.333%;
+	flex: 0 0 33.333%;
+	max-width: 33.333%;
+	display: inline-block;
+	padding-bottom: 20px;
+	padding-left: 30px;
+        padding-right: 30px;
+}
+.wpk-iframe-generator .iframe-url-option #iframe-url{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.wpk-iframe-generator .iframe-output button{
+	margin-bottom: 20px;
+}
+h1 {
+
+}
+h1, h2, h3, h4, h6 {
+  margin: 0 0 15px;
+  color: #58a6ff;
+  font-weight: 1000;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h5 {
+  margin: 0 0 10px;
+  color: #57849e;
+  font-weight: 500;
+}
