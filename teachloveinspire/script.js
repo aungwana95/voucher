@@ -18,7 +18,7 @@ image.onload = function () {
 function drawImage() {
 	// ctx.clearRect(0, 0, canvas.width, canvas.height)
 	ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
-	ctx.font = '20px Gadugi bold'
+	ctx.font = '17px Gadugi bold'
 	ctx.fillStyle = '#000000'
 
 //---NAME---//
