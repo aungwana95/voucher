@@ -38,6 +38,15 @@ function drawImage() {
 nameInput.addEventListener('input', function () {
 	drawImage()
 })
+nrcInput.addEventListener('input', function () {
+	drawImage()
+})
+classInput.addEventListener('input', function () {
+	drawImage()
+})
+dateInput.addEventListener('input', function () {
+	drawImage()
+})
 
 downloadBtn.addEventListener('click', function () {
 	downloadBtn.href = canvas.toDataURL('image/jpg')
