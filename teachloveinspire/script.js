@@ -30,12 +30,18 @@ function drawImage() {
         ctx.fillText(classInput.value, 380, 400)
 //---DATE---//
         ctx.fillText(dateInput.value, 360, 240)
-//---CID---//
-        ctx.fillText(cidInput.value, 95, 270)
 }
 
-
 nameInput.addEventListener('input', function () {
+	drawImage()
+})
+nrcInput.addEventListener('input', function () {
+	drawImage()
+})
+classInput.addEventListener('input', function () {
+	drawImage()
+})
+dateInput.addEventListener('input', function () {
 	drawImage()
 })
 
