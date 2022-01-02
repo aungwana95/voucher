@@ -47,9 +47,6 @@ classInput.addEventListener('input', function () {
 dateInput.addEventListener('input', function () {
 	drawImage()
 })
-cidInput.addEventListener('input', function () {
-	drawImage()
-})
 
 downloadBtn.addEventListener('click', function () {
 	downloadBtn.href = canvas.toDataURL('image/jpg')
